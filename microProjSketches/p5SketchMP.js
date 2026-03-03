@@ -17,6 +17,10 @@ function setup() {
   pauseButton = createButton('Pause');
   pauseButton.position(100, height - 40);
   pauseButton.mousePressed(pauseGame);
+
+  restartButton = createButton('Restart');
+  restartButton.position(190, height - 40);
+  restartButton.mousePressed(restartGame);
 }
 
 function draw() {
@@ -76,6 +80,7 @@ function spawnCircles(s) {
 }
 
 function mousePressed() {
+  if (isPaused) return;
   for (let i = circles.length - 1; i >= 0; i--) {
     let c = circles[i];
     let d = dist(mouseX, mouseY, c.x, c.y);
@@ -95,4 +100,11 @@ function startGame() {
 
 function pauseGame() {
   isPaused = true;
+}
+
+function restartGame() {
+  score = 0;
+  circles = [];
+  isPaused = false;
+  spawnCircles(3);
 }
