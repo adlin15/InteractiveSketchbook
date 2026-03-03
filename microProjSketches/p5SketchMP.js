@@ -4,10 +4,19 @@ let boxX = 50;
 let boxY = 50;
 let boxW = 500;
 let boxH = 300;
+let isPaused = false;
+let startButton, pauseButton;
 
 function setup() {
   createCanvas(600, 400);
   spawnCircles(3);
+  startButton = createButton('Start');
+  startButton.position(10, height - 40);
+  startButton.mousePressed(startGame);
+
+  pauseButton = createButton('Pause');
+  pauseButton.position(100, height - 40);
+  pauseButton.mousePressed(pauseGame);
 }
 
 function draw() {
@@ -19,7 +28,18 @@ function draw() {
   noFill();
   rect(boxX, boxY, boxW, boxH);
 
+  if (!isPaused) {
+    updateCircles();
+  }
+
+    drawCircles();
+  fill(255);
   noStroke();
+  textSize(20);
+  textAlign(LEFT, TOP);
+  text("Score: " + score, 10, 10);
+}
+  function updateCircles() {
   for (let i = circles.length - 1; i >= 0; i--) {
     let c = circles[i];
 
@@ -32,16 +52,15 @@ function draw() {
     if (c.y - c.r < boxY || c.y + c.r > boxY + boxH) {
       c.vy *= -1;
     }
-
-    fill(c.col);
-    ellipse(c.x, c.y, c.r * 2, c.r * 2);
   }
+}
+  function drawCircles() {
+    noStroke();
+    for (let c of circles) {
+      fill(c.col);
+      ellipse(c.x, c.y, c.r * 2, c.r * 2);
+    }
 
-  fill(255);
-  noStroke();
-  textSize(20);
-  textAlign(LEFT, TOP);
-  text("Score: " + score, 10, 10);
 }
 
 function spawnCircles(s) {
@@ -68,4 +87,12 @@ function mousePressed() {
       break;
     }
   }
+}
+
+function startGame() {
+  isPaused = false;
+}
+
+function pauseGame() {
+  isPaused = true;
 }
