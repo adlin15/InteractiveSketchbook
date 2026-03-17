@@ -98,7 +98,7 @@ function spawnSquare() {
 }
 
 function updateSquares() {
-
+//Eventually could add fading out, but didn't have time to implement it.
 }
 
 function drawSquares() {
