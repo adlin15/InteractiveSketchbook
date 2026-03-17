@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>MicroProjectSketches</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+
+<body>
+    <h1>Ideas so far</h1>
+    <p>Input Idea - Bubble clicking simulator, using a box with circles that appear in different sizes and colors. The bubbles will appear over time, or will appear all at once in the box.
+        Change over time - bubbles pop after a certain time, pop as much bubbles as you can! The goal is to get as much as you can within a time limit.
+        Friction? Delay? Limit? - Appear after 10-20 seconds, bubbles disappears after 5 seconds. Maybe add powerups in the future if it is possible.
+        Intended feeling - Happy to pop bubbles, sad to see scores/game ends.
+    </p>
+
+    <h2>2/17/2026</h2>
+    <p>Written Clarification: The core rule of this system is to make a game in a boundary where you have some interactables, one being the start button, one being the bubbles where you have to click to earn points over time, a scoreboard system within the top corner, and a pause button to stop the game. When the game becomes even is when either the score has reached a minumin value or when the timer runs out. This idea promps the user/player to play until they beat a certain milestone/record of their bubble pops.</p>
+
+    <h3>3/3/2026</h3>
+    <p>Added a pause and start button to the game but encountered a new issue where you can still press the bubbles and the score would keep playing. The user can still interact with the bubbles, but now there is a pause button and start button that is off center from the game.*Fixed* New problem is that when pressing pause, the game still tracks the bubbles popped that are now frozen in mid air, need to fix this bug. *New* Now added a restart button that resets the bubbles and positioning of startup. Also pausing the gamne now no longer messes up the score.</p>
+
+    <h3>3/05/2026</h3>
+    <p>Ideas: Add levels 1-5 + endless mode, One giant bubble at the first level where it slowly gets smaller, Add powerups that makes bubbles bigger or split into 3 or increased score count for each new bubble popped within a time limit, bubbles where they progressively get smaller and faster, shapes that aren't bubbles that instantly reset game, high score tracker.</p>
+
+    <h3>3/16/2026</h3>
+    <p>Tried adding endless mode, but faced many issues such as: Endless mode button not appearing, not showing up after reaching 100 score, game not stopping to allow endless mode to being unlocked, button aligned to bottom center of game not working, game crashing afer too many button presses, and code got too complicated. Had to scrap the idea of endless mode and just added red squares that appear to block vision and causes game over if pressed. Havent added a way for the squares to disappear but they serve as visible evolution over time and block the player's vision.</p>
+</body>
+</html>
