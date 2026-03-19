@@ -3,27 +3,27 @@ let squares = [];
 let score = 0;
 let boxX = 50;
 let boxY = 50;
-let boxW = 500;
-let boxH = 300;
+let boxW = 700;
+let boxH = 500;
 let isPaused = false;
 let gameOver = false;
 let startButton, pauseButton, restartButton;
 let lastSquareTime = 0;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(800, 600);
   spawnCircles(3);
 
   startButton = createButton('Start');
-  startButton.position(100, 10);
+  startButton.position(300, 30);
   startButton.mousePressed(startGame);
 
   pauseButton = createButton('Pause');
-  pauseButton.position(160, 10);
+  pauseButton.position(360, 30);
   pauseButton.mousePressed(pauseGame);
 
   restartButton = createButton('Restart');
-  restartButton.position(230, 10);
+  restartButton.position(430, 30);
   restartButton.mousePressed(restartGame);
 }
 
