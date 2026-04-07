@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Reflection on Nielsen Heuristics</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+
+<body>
+    <h1>Reflection on Nielsen Heuristics</h1>
+    <p>I think the most aligned heuristics for Jakob Neilson to Norman is the second one, “Match between the System and the Real World”. The title alone is similar to Norman’s, “The design of Everyday Things”, as he argues that users often struggle with devices because design doesn't completely communicate how it should be according to human standards. We often make adjustments that fit up to human standards which are also part of human psychology but it also doesn't truly reflect that, by showcasing affordances and signifiers from where the action happens. Neilson explains how design should be able to speak the user’s language, meaning by using keywords, phrases, and concepts that are familiar to the user, only then will information online make sense in order. Something simple to control and manage that users can understand is the principle behind his reasoning in this heuristic, making both Neilson and Norman’s principles correlate to the design idea of mimicking natural order, real life behaviors instead of forcing users to confined rules that differ from the standard. 
+
+Two heuristics that I noticed with my micro-projects that are clearly violating/struggling with are “Consistency and Standards” and "Flexibility and Efficiency of Use”. With consistency and standards, I have received a lot of feedback from previous game testings, where everyone had to share their progress and I was unable to fulfill some of the great feedback I got, lowering down not just my standard of the game, but everyone’s expectations as well. I remember a comment from my professor to add levels, making the game difficulty more challenging and engaging, so I attempted to do so by spending hours working on the code, only to find a lot of problems that came with it, and had to scrap the idea because of frustration and the inability to follow user input from the code. The game itself was simple to use, it was just not on the level I was expecting to create, even though it is simple and understandable for anyone seeing as the title of the game is “Bubble Clicking Simulator”. 
+
+This next one is something I was thinking about while making my game, with "Flexibility and Efficiency of Use”. Shortcuts to speedup interaction of the game was something I considered for users to have a better experience of my game. I had this idea where the user could press one key on their keyboard and that would count as a click for those whose mouse dies while gaming(this happens more occasionally than it should). There were also comments of adding powerups to my game to change the dynamic and flexibility such as speed up, slow down circles/red squares. There was also this accidental idea I had which is having the screensize fit to devices so the game could run on any devices, crossplatforming which was unintended while testing my game on pc and my laptop. Due to this discovery, the game difficulty just remained the same so its more fair for laptop users being able to click on the current pacing instead of an ultra fast bubble that cannot be clicked.
+    </p>
