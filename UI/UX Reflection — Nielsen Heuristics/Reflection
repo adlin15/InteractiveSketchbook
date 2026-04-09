@@ -15,3 +15,6 @@ Two heuristics that I noticed with my micro-projects that are clearly violating/
 
 This next one is something I was thinking about while making my game, with "Flexibility and Efficiency of Use”. Shortcuts to speedup interaction of the game was something I considered for users to have a better experience of my game. I had this idea where the user could press one key on their keyboard and that would count as a click for those whose mouse dies while gaming(this happens more occasionally than it should). There were also comments of adding powerups to my game to change the dynamic and flexibility such as speed up, slow down circles/red squares. There was also this accidental idea I had which is having the screensize fit to devices so the game could run on any devices, crossplatforming which was unintended while testing my game on pc and my laptop. Due to this discovery, the game difficulty just remained the same so its more fair for laptop users being able to click on the current pacing instead of an ultra fast bubble that cannot be clicked.
     </p>
+
+</body>
+</html>
