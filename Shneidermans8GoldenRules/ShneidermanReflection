@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interface Audit</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+<body>
+    <h1>Sheinderman Reflection</h1>
+    <p>Seeking universal usability in the Shneiderman’s 8 Golden Rules is one that feels the most absent from my micro-project page. There aren't many features that novices would understand if they see my micro-project page as it does require some experience to understand what it is.
+
+The rule that would most improve my sketchbook interface would be Strive for Consistency, as I need to think of a design interface where it matches with everything that is interactable while making it pleasant to look at.
+
+The hardest to apply would be to prevent errors, there is no way to completely control this without testing and bug fixes every detail. 
+
+Keeping users in control is contradicting because it doesn't leave a lot of room for users to make a lot of choices in the first place, as there is nothing.
+</p>
+</body>
+</html>
