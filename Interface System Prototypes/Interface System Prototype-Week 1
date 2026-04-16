@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interface Prototype W1</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+<body>
+    <h1>Interface Prototype W1</h1>
+    <p>
+        Prototype Link: <a href="https://www.figma.com/proto/Q0TdDm5kKKe361VvHCSkQ8/Untitled?node-id=0-1&t=aKRGY7GQOpKyVQO6-1">Figma Share Link</a>
+        <img src="./images/Screenshot 2026-04-15 232818.png"/>
+        <br>
+        The idea was to use other websites to use as a baseline to make for this weeks prototype, but I was swamped with projects from other classes so I am a little behind in terms of putting some hours into figma. I have several ideas on what to build from here so lets take it step by step.
+        <br>
+        The first thing I want to do is to make a landing page that has a clear hierarchy and structure, with the most important information being the title of the project, and then build the body structure to see how well it would fit the micro projects and other weekly works. I want to focus on the main body first, as that is the grounds for all my future works as I see it as an important bookmark for everyone to view my works the first thing they see when they land on the page in laptop and phone.
+        <br>
+        The second thing I want to do is to make a clear navigation system, as I want to make it easy for users to navigate through the different pages and works that I have, as well as making it easy for them to find what they are looking for. I want to make a clear navigation bar that is easy to access and understand, with clear labels and icons that indicate what each page is about.
+        <br>
+        The third thing is I want to adress filling the blank page, as eventually we will add aesthetic elements to make it more visually appealing, but for now I want to focus on filling the blank page with some content that is relevant to my works, such as a brief introduction about myself and my works, as well as some links to my social media and other platforms where I share my works. This way, I can give users a better understanding of who I am and what I do, and also make it easier for them to find more of my works if they are interested.
+    </p>
+</body>
+</html>
