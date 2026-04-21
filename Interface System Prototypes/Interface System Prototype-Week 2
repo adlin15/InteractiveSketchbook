@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interface Prototype W2</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+<body>
+    <h1>Interface Prototype W2</h1>
+    <p>
+        Prototype Link: <a href="https://www.figma.com/proto/Q0TdDm5kKKe361VvHCSkQ8/Untitled?node-id=0-1&t=aKRGY7GQOpKyVQO6-1">Figma Share Link</a>
+        <img src="./images/Screenshot 2026-04-21 081243.png"/>
+        <br>There were a lot of progress for this week, as I focused on building the main body structure and the navigation system, as well as filling the blank page with some content. I mostly added simple squares to where I would place down text, images, and buttons to see other parts of the projects I've made.
+        <br>One thing to note in the screenshot is the mobile version, as I think it feels a bit generic with the layouts, and I feel like I need peer review or some feedback to see how I could further improve, maybe as simple as adding buttons to close down the boxes if needed, and after writing this, I just realized that I could add a colapse button for the part where I put previews for the projects, as then it could save space in the mobile version, along with adding some better interface elements for the button part of the screen, similar to the Macbook pro version.
+        <br>Overall, I think I made a lot of progress for this week, and I can see the potential for improvement on figma this week. Sorry to hear that you won't be able to see this in class, hope your back recovers from the injury.
+
+    </p>
+</body>
+</html>
