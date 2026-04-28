@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interface Prototype W3</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+<body>
+    <h1>Interface Prototype W3</h1>
+    <p>
+        Prototype Link: <a href="https://www.figma.com/design/Q0TdDm5kKKe361VvHCSkQ8/Untitled?node-id=0-1&t=oa1IkSJWUWJ2qrry-1">Figma Share Link</a>
+        <img src="./images/Screenshot 2026-04-28 122248.png"/>
+        <br>
+        This week, I focused on improving both the mobile version and laptop version of the interfaces, as well as adding prototype links to the different sections of my projects. I connected the phone project sections to each part in Figma, making sure they look structured and organized, making it easy for anyone who visits this page for the first time to navigate through with eaze. I tested in prototype settings to see if each part is sizeable and correct when looking in the view of an iPhone 16. I had to resize many structures, very different from last week's boxes. I also connected the Macbook version with the other pages, to make one scrollable size screen where you can easily see all the projects, something the professor mentioned in class to try out as a unique way to use Figma for the website. I also added prototype links to make clicking the titles on a side panel at the home page, to scroll down to the different sections of the projects, so you wouldn't have to scroll down the whole page.
+
+    </p>
+</body>
+</html>
