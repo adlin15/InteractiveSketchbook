@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interface implementation</title>
+        <link ref="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    </head>
+<body>
+    <h1>Interface Implementation</h1>
+    <p>
+        From the figma website prototype, I managed to somewhat replicate the interface with some changes to make it easier to read and navigate, from the suggestions I got from other classmates. This implementation was more of an upgrade using the index file as the base instead of making a new file because I found it easier to use. Some changes I made were to make the navigation more of a row since the fast travel option I had as an idea in figma was kinda useless when implementing as my screen was big enough to see everything from scrolling down, because I had intended to use that feature if scrolling down was too long, which in this case wasn't that big. Some other changes was removing the preview feature, as the images were kinda pointless when you can just click on the projects to see them yourself, so I had to scrap that idea and just make sections for the projects that are close to the center of the webpage instead. I used some code I had leftover from a coding class I had last year when I made a click your adventure website project, which made coding this part easier and less of a headache. I also color coded all sections: body, header, navigation, linked groups, and footer to give more hierarchy as just having the color grey was too plain. If you look closely, you will see that I managed to add lines that act as dividers for each section, and added boxes for every project so locating each sketch is following Nielsen Norman and Don Norman’s design principles. Of course, not everything is perfect as I didn't manage to add descriptions because of this weird bug where the style.css couldn't recognize the description which I labeled as .description so I had to scrap that part of the code. The code that gave me the most headache was the flipping link-groups and site headers/footers, because finding the right size and measurements with px and rem was converting math to match desktop and mobile, which I wasn't even sure if it worked properly at the time. I did get assistance with ChatGBT and the AI helper bot visual studio code installed to help fix some broken parts of code that bugged out, which was a simple fix by adding nowrap and inline-block, something I didn't learn from the previous class a year ago. It also helped with fixing the @media query as I didn't fully understand what this code did until I found out online that it is a css rule created for responsive web designs with specific conditions met being the criteria, with screen size and display type. If I had more time to revise this, I would probability choose better fonts, resize the body background with better colors, maybe a gradient when I figure out how to do that in css, add the description css when I find a way to fix that code that refuses to position correctly and shifts everything downwards with large empty spaces in between, and even though it says not to add a hamburger menu, I would want to learn how to add that to make this interface better.
+        <h2>Screenshot of the final interface implementation (which is the current desktop version)</h2>
+        <br>
+        <img src="./images/Screenshot 2026-05-21 164651.png"/>
+        <br>
+        <h3>This is the screenshot of the broken code for the description I was trying to fix but had no clue what went wrong.</h3>
+        <img src="./images/Screenshot 2026-05-21 171152.png"/>
+    </p>
+</body>
+</html>
